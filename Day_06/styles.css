@@ -1,0 +1,23 @@
+h1 {
+    color: blue;
+    background-color: yellow;
+}
+
+#middle {
+    background-color: aqua;
+}
+
+p {
+    color: yellow;
+    background-color: black;
+    width: 250px;
+}
+
+.text {
+    background-color: lightgray;
+}
+
+span {
+    background-color: yellow;
+    width: 250px;
+}
