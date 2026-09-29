@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* color: red; */
+}
+
+h2 {
+    color: green;
+}
+
+p {
+    color: blue;
+}
+
+.card {
+    padding: 40px;
+    border: 4px solid brown;
+    background-color: yellow;
+    margin: 20px;
+    margin-inline: auto;
+    width: 200px;
+    color: red;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+#title {
+    color: gold;
+}
