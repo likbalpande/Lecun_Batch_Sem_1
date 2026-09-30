@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.item-1 {
+    background-color: orange;
+    height: 300px;
+    width: 500px;
+}
+.item-2 {
+    background-color: green;
+    height: 300px;
+    width: 60%;
+}
+.item-3 {
+    background-color: rgba(0, 0, 255, 0.345);
+    height: 300px;
+    width: 60vw;
+}
+section {
+    width: 700px;
+    background-color: black;
+}
