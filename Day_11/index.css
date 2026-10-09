@@ -28,7 +28,7 @@ nav {
     top: 40px;
 }
 
-.mobile-btns {
+.laptop-btns {
     display: none;
 }
 
@@ -41,6 +41,38 @@ nav {
 }
 
 .menu-container:hover nav {
-    /* background-color: yellow; */
+    background-color: yellow;
     display: flex;
+}
+
+@media (width>=600px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        position: static;
+
+        background-color: transparent;
+        border: none;
+    }
+
+    .menu-container {
+        order: 1;
+        height: fit-content;
+        width: fit-content;
+        border-radius: 0;
+        background-color: transparent;
+    }
+
+    .laptop-btns {
+        display: flex;
+        order: 2;
+    }
+
+    .mobile-btns {
+        display: none;
+    }
+
+    header {
+        justify-content: space-between;
+    }
 }
